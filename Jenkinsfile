@@ -8,6 +8,5 @@ pipeline {
                 sh 'docker version'
             }
         }
-
     }
 }
