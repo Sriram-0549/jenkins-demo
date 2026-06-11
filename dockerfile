@@ -1,3 +1,5 @@
-FROM nginx
-COPY index.html /usr/share/nginx/html/
+FROM python:3.12-slim
+COPY app.py /app.py
+CMD ["python", "/app.py"]
+
 
